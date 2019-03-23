@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 float anwr(int num)
-{    //s=1/2-2/3+3/4-4/5+...+(n-1)/n در اینجا مثبت و منفی را کی در نظر میگیریم(k)
+{    //s=1/2-2/3+3/4-4/5+...+(n-1)/n در اینجا مثبت و منفی را کی در نظر میگیریم(k)زرزر
     float s;
     int k;
     for(int i = 1; i <= num; i++)
