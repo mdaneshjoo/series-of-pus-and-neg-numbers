@@ -4,7 +4,7 @@ using namespace std;
 float anwr(int num)
 { //s=1/2-2/3+3/4-4/5+...+(n-1)/n در اینجا مثبت و منفی را کی در نظر میگیریم(k)
     float s;
-    int k;
+    int k=1;
     for (int i = 1; i <= num; i++)
     {
         s = s + (k * ((float)i / (i + 1)));
